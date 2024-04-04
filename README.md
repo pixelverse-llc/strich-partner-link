@@ -1,12 +1,32 @@
 # STRICH Partner Link Package
 
-Contains STRICH logo for dark and light website backgrounds as transparent PNG and SVG (preferred) files.
-Tinting the logo to your primary brand color is allowed, in that case use SVG and change the fill color.
+Specification and assets for linking back to the STRICH website from partner pages.
+
+We support light and dark backgrounds, as well as horizontal and vertical layouts.
+
+![Horizontal layout, light background](samples/sample_light_horz.png)
+![Vertical layout, light background](samples/sample_light_vert.png)
+![Horizontal layout, dark background](samples/sample_dark_horz.png)
+![Vertical layout, dark background](samples/sample_dark_vert.png)
+
+
+## Logo assets
+
+For light backgrounds, use asset `strich_light.svg`:
+
+![STRICH Logo for dark background](strich_light.svg)
+
+For dark backgrounds, use asset `strich_dark.svg`:
+
+![STRICH Logo for dark background](strich_dark.svg)
+
+Tinting the logo with your primary brand color is allowed, in that case use SVG and change the fill color.
 
 ## Link data
 
-Link URL: https://strich.io
-Link text: "Scanning powered by", to the left (horizontal layout) or above (vertical layout) of the logo.
+URL: https://strich.io
+
+Text: _Scanning powered by_, to the left (horizontal layout) or above (vertical layout) of the logo.
 
 ## Sample HTML/CSS
 
